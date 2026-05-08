@@ -148,28 +148,28 @@ export default function Home() {
       />
 
       {/* Navigation */}
-      <nav className="relative z-20 flex items-center justify-between px-6 py-6 max-w-7xl mx-auto">
-        <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center shadow-lg overflow-hidden">
+      <nav className="relative z-20 flex items-center justify-between px-4 sm:px-6 py-6 max-w-7xl mx-auto">
+        <div className="flex items-center gap-2 sm:gap-3">
+          <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg sm:rounded-xl bg-indigo-600 flex items-center justify-center shadow-lg overflow-hidden">
             <img src="/uttam_ai_logo.png" alt="Uttam AI Logo" className="w-full h-full object-cover" />
           </div>
-          <span className="text-xl font-bold tracking-tight">Uttam AI</span>
+          <span className="text-lg sm:text-xl font-bold tracking-tight">Uttam AI</span>
         </div>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2 sm:gap-4">
           <button
             onClick={toggleTheme}
-            className={`p-2.5 rounded-xl border transition-all duration-300 ${
+            className={`p-2 sm:p-2.5 rounded-xl border transition-all duration-300 ${
               isDarkMode
                 ? "bg-white/5 border-white/10 hover:bg-white/10 text-yellow-400"
                 : "bg-black/5 border-black/10 hover:bg-black/10 text-indigo-600"
             }`}
           >
-            {isDarkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+            {isDarkMode ? <Sun className="w-4 h-4 sm:w-5 sm:h-5" /> : <Moon className="w-4 h-4 sm:w-5 sm:h-5" />}
           </button>
           <button
             onClick={() => window.dispatchEvent(new CustomEvent("open-chat"))}
-            className={`px-5 py-2.5 rounded-xl font-medium text-sm transition-all duration-300 shadow-lg ${
+            className={`px-3 sm:px-5 py-2 sm:py-2.5 rounded-xl font-medium text-[12px] sm:text-sm transition-all duration-300 shadow-lg ${
               isDarkMode
                 ? "bg-white text-black hover:bg-slate-200"
                 : "bg-indigo-600 text-white hover:bg-indigo-700 shadow-indigo-500/25"
@@ -199,7 +199,7 @@ export default function Home() {
               <Zap className="w-3 h-3" /> Next-Gen AI Assistant
             </div>
 
-            <h1 className="text-5xl sm:text-7xl font-extrabold mb-8 leading-[1.1] tracking-tight">
+            <h1 className="text-4xl sm:text-7xl font-extrabold mb-6 sm:mb-8 leading-[1.1] tracking-tight">
               Intelligence for the <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
                 Future of Industry
@@ -215,16 +215,16 @@ export default function Home() {
               Bridging IT innovation with Steel manufacturing excellence.
             </p>
 
-            <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <button 
                 onClick={() => window.dispatchEvent(new CustomEvent("open-chat"))}
-                className="px-8 py-4 rounded-2xl bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold shadow-xl shadow-indigo-500/30 hover:scale-105 transition-transform active:scale-95 flex items-center gap-2"
+                className="w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold shadow-xl shadow-indigo-500/30 hover:scale-105 transition-transform active:scale-95 flex items-center justify-center gap-2"
               >
                 Launch Chat <ChevronRight className="w-5 h-5" />
               </button>
               <button
                 onClick={() => window.dispatchEvent(new CustomEvent("open-chat", { detail: { message: "Tell me about UISPL AI solutions" } }))}
-                className={`px-8 py-4 rounded-2xl font-bold border transition-all ${
+                className={`w-full sm:w-auto px-8 py-4 rounded-2xl font-bold border transition-all ${
                   isDarkMode
                     ? "border-white/10 hover:bg-white/5"
                     : "border-black/10 hover:bg-black/5"
