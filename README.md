@@ -108,4 +108,12 @@ This project was crafted using specialized development modules. You can add thes
 This project is strictly branded as **Uttam AI**. All underlying technologies (Groq, Llama, Meta) are internal and never disclosed in the user interface to maintain a unified corporate identity.
 
 ---
-**Powered by Uttam Innovative Solution Pvt. Ltd.** 🚀🦾
+## 👨‍💻 Author & Support
+
+Designed & Developed by **Sundram Pandey**  
+**Uttam Innovative Solution Pvt. Ltd.**
+
+For support, inquiries, or customized features, please contact Uttam Innovative Solution Pvt. Ltd.
+
+---
+*Version: 1.0.0 | Last Updated: May 2026*
