@@ -22,7 +22,7 @@ const QUICK_REPLIES = [
 ];
 
 const STORAGE_KEY = "uttam_ai_chat_history";
-
+// hello
 function getFollowUps(userText: string, botText: string): string[] {
   const combined = (userText + " " + botText).toLowerCase();
   if (combined.includes("steel price") || combined.includes("hrc"))
