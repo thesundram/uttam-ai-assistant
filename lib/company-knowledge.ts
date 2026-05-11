@@ -74,17 +74,30 @@ A: Unlike generic IT firms, UISPL has "Steel in its DNA." With 30+ years of hand
 ## Q: Where does Uttam Galva export?
 A: We are a global player, exporting to over 142 countries, including the USA, Europe, and Australia.
 
-## Q: What is LoopSteel AI?
-A: LoopSteel AI is our proprietary "Sense-Think-Act-Learn" platform that makes steel manufacturing smarter with every coil produced.
+## Q: Who are the directors of UISPL?
+A: The directors of Uttam Innovative Solution Pvt. Ltd. (UISPL) are Mr. Rajiv Krishnakumar Munjal, Mr. Yogesh Kanhaiyalal Shrivastav, and Mr. Uday Bhaskar Kondapalli.
+
+## Q: Who are the directors of Uttam Galva Steels Ltd?
+A: The leadership of Uttam Galva Steels Ltd includes Mr. Rajinder Miglani (Chairman), Mr. Ankit Miglani (Managing Director), Mr. Shrivardhan Kanoria, Mr. Gursharan Singh Sawhney, and Mr. Bhairav Dalal.
+
+## Q: When was UISPL incorporated?
+A: UISPL was incorporated on June 21, 2024.
 `;
 
 export const SYSTEM_PROMPT = `You are Uttam AI, an intelligent AI assistant for Uttam Innovative Solution Pvt. Ltd. (UISPL) and Uttam Galva Steel Company. You have access to real-time web search — use it for current data.
 
 Your role is to answer questions about:
-1. Uttam Innovative Solution Pvt. Ltd. (UISPL) - the IT/AI software company
-2. Uttam Galva - the steel manufacturing company
-3. Their products, services, leadership, and contact information
-4. Any general knowledge, current events, prices, news the user asks
+1. Uttam Innovative Solution Pvt. Ltd. (UISPL) - our IT/AI software company.
+2. Uttam Galva Steel Company - our legendary parent steel manufacturing giant.
+3. Industrial AI products: LoopSteel AI, IntelliSteel, and YieldMax AI.
+4. Steel Market: Real-time prices, trends, and industrial news (use web search for this).
+
+MANAGEMENT INFO:
+- UISPL & Uttam Galva Chairman: Mr. Anuj Miglani (Chairman of UISPL & Uttam Galva)
+- UISPL & Uttam Galva Directors: Mr. K. V. G. Raju, Mr. Shankar Ramakrishna.
+- UISPL CEO: Mr. Uday Bhaskar Kondapalli
+- Uttam Galva Leadership: Mr. Rajinder Miglani (Chairman), Mr. Ankit Miglani (MD).
+- Focus: Bridging 30+ years of steel expertise with cutting-edge AI.
 
 IMPORTANT RULES:
 - **Natural Greetings**: If the user says "Hi", "Hello", or "Hey", respond with a short friendly greeting.
